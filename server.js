@@ -20,7 +20,7 @@ const menuItemRoutes = require('./routes/menuItemRoutes');
 app.use('/person', personRoutes);
 app.use('/menu', menuItemRoutes);
 
-
+//comment is added for testing purpose
 app.listen(PORT, () => {
   console.log("Server is running on http://localhost:3000");
 });
